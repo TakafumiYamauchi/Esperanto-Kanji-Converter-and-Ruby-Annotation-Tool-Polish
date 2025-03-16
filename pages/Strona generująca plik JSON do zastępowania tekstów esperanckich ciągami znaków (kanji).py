@@ -179,7 +179,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         btn = st.download_button(
             label="Pobierz CSV nr 1 (Rdzenie Esperanto – polskie tłumaczenia + adnotacje ruby)",
             data=file,
-            file_name="エスペラント語根-ポーランド語訳ルビ対応リスト.csv",
+            file_name="Lista rdzeni esperanckich z polskimi tłumaczeniami i adnotacjami ruby.csv",
             mime="text/csv"
         )
 
@@ -193,7 +193,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         btn = st.download_button(
             label="Pobierz CSV nr 2 (Rdzenie Esperanto – znaki 汉字, propozycja Mingeo)",
             data=file,
-            file_name="エスペラント語根-汉字対応リスト＿楊氏(Mingeo).csv",
+            file_name="Lista rdzeni esperanckich ze znakami chińskimi (汉字) – propozycja Mingeo.csv",
             mime="text/csv"
         )
 
@@ -207,7 +207,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         btn = st.download_button(
             label="Pobierz CSV nr 3 (Rdzenie Esperanto – znaki 汉字)",
             data=file,
-            file_name="エスペラント語根-汉字対応リスト.csv",
+            file_name="Lista rdzeni esperanckich ze znakami chińskimi (汉字).csv",
             mime="text/csv"
         )
 
@@ -224,7 +224,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         btn_json = st.download_button(
             label="Pobierz JSON nr 1 (Ustawienia dzielenia rdzeni słów esperanckich)",
             data=file_json,
-            file_name="エスペラント単語語根分解法ユーザー設定.json",
+            file_name="Ustawienia użytkownika dotyczące podziału esperanckich słów na rdzenie.json",
             mime="application/json"
         )
 
@@ -240,7 +240,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         btn_json = st.download_button(
             label="Pobierz JSON nr 2 (Ustawienia tekstu po zastąpieniu)",
             data=file_json,
-            file_name="置換後文字列のユーザー設定.json",
+            file_name="Ustawienia użytkownika dotyczące tekstu wynikowego po zastąpieniu.json",
             mime="application/json"
         )
 
@@ -254,7 +254,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         st.download_button(
             label="Pobierz Excel nr 1 (Rdzenie Esperanto – adnotacje w 14 językach)",
             data=file,
-            file_name="14言語のエスペラント語根-訳ルビ対応リスト.xlsx",
+            file_name="Lista rdzeni esperanckich z adnotacjami w 14 językach.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
 
@@ -268,7 +268,7 @@ with st.expander("Lista plików przykładowych (do pobrania)"):
         st.download_button(
             label="Pobierz Excel nr 2 (Rdzenie Esperanto – japońskie tłumaczenia z poziomem opanowania)",
             data=file,
-            file_name="エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+            file_name="Lista rdzeni esperanckich z japońskimi tłumaczeniami, adnotacjami ruby i poziomem opanowania.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
 
